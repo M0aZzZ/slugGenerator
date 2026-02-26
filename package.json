@@ -1,0 +1,36 @@
+{
+  "name": "sluggenerator",
+  "version": "1.0.0",
+  "description": "a simple library for modern consumer to generate clean slugs.",
+  "exports": {
+    ".": {
+      "default": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf ./dist",
+    "build": "npm run clean && tsc -p ./tsconfig.production.json && tsc-alias -p ./tsconfig.production.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M0aZzZ/slugGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/M0aZzZ/slugGenerator/issues"
+  },
+  "homepage": "https://github.com/M0aZzZ/slugGenerator#readme",
+  "devDependencies": {
+    "rimraf": "^6.1.3",
+    "tsc-alias": "^1.8.16",
+    "typescript": "^5.9.3"
+  }
+}
