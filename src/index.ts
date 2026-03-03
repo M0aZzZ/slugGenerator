@@ -1,8 +1,8 @@
 export const slugify = (url: string): string => {
-    let cleanUrl: string = url;
-    if (typeof cleanUrl !== "string") {
-        throw new TypeError("slugify: input must be a string");
+    if (typeof url !== "string") {
+    throw new TypeError("slugify: input must be a string");
     }
+    let cleanUrl: string = url;
     cleanUrl = cleanUrl
         .toLowerCase()
         .trim()
