@@ -7,7 +7,7 @@ export const slugify = (url: string): string => {
         .toLowerCase()
         .trim()
         .replace(/[\s-_,.]+/g, '-')
-        .replace(/[\#@!]+/g, '')
+        .replace(/[#@!]+/g, '')
     cleanUrl = trimDashes(cleanUrl);
     return cleanUrl;
 }
