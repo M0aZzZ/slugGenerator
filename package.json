@@ -1,5 +1,5 @@
 {
-  "name": "@m0az/sluggeneratorr",
+  "name": "@m0az/sluggenerator",
   "version": "1.0.1",
   "description": "a simple library for modern consumer to generate clean slugs.",
   "exports": {
@@ -16,7 +16,7 @@
     "test:run": "vitest run",
     "clean": "rimraf ./dist",
     "lint": "eslint .",
-    "build": "npm run clean && tsc -p ./tsconfig.production.json && tsc-alias -p ./tsconfig.production.json"
+    "build": "npm run clean && tsc -p ./tsconfig.production.json"
   },
   "repository": {
     "type": "git",
