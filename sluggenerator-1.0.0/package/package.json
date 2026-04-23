@@ -1,6 +1,6 @@
 {
-  "name": "@m0az/sluggenerator",
-  "version": "1.0.1",
+  "name": "sluggenerator",
+  "version": "1.0.0",
   "description": "a simple library for modern consumer to generate clean slugs.",
   "exports": {
     ".": {
